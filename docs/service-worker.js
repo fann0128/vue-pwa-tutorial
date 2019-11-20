@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue-pwa-tutorial/precache-manifest.208a94d6d7133a5f313461242ff5db3a.js"
+  "/vue-pwa-tutorial/precache-manifest.024b90d11a2fabe8e720c9b2bbe73868.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vue-pwa-tutorial"});
+workbox.core.setCacheNameDetails({prefix: "debug"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
